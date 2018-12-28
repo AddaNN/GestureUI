@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/register_collect"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="200dp"
+        android:text="请按住按钮输入手势" />
+    <Button
+        android:id="@+id/register_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="数据库"/>
+    <Button
+        android:id="@+id/register_back"
+        android:layout_below="@+id/register_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回主页面"/>
+
+    <ImageView
+        android:id="@+id/register_collect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:src="@mipmap/register_fingerprint" />
+</RelativeLayout>
